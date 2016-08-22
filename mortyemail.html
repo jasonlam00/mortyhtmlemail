@@ -13,6 +13,10 @@
         border: none;
         -ms-interpolation-mode: bicubic;
         max-width: 100%; }
+      .social {
+        padding-top: 15px;
+        padding-bottom: 5px;
+      }
       body {
         background-color: #0076a3;
         font-family: 'Open Sans'
@@ -61,16 +65,20 @@
       ------------------------------------- */
       .main {
         background: #f3f3f3;
-        border-radius: 25px;
-        width: 100%; }
+        width: 100%;
+        border-radius: 25px; }
       .wrapper {
         box-sizing: border-box;
         padding: 20px; }
       .footer {
         clear: both;
         padding-top: 10px;
+        padding-bottom: 10px;
         text-align: center;
-        width: 100%; }
+        width: 100%;
+        background-color: #27343d;
+        border-radius: 25px;
+        margin-top: 20px; }
         .footer td,
         .footer p,
         .footer span,
@@ -219,6 +227,10 @@
         img {
           padding: 10px;
         }
+        .social {
+          width: 28px;
+          height: 28px;
+        }
       /* -------------------------------------
           PRESERVE THESE STYLES IN THE HEAD
       ------------------------------------- */
@@ -240,7 +252,7 @@
           line-height: inherit !important;
           text-decoration: none !important; } 
         .btn-primary table td:hover {
-          background-color: #34495e !important; }
+          background-color: transparent !important; }
         .btn-primary a:hover {
           background-color: #068 !important;
           border-color: #068 !important; } }
@@ -282,7 +294,7 @@
                     <tr>
                       <td>
                         <p class = "align-center">Hi there,</p>
-                        <p>Sometimes you just want to send a simple HTML email with a simple design and clear call to action. This is it.</p>
+                        <p class="align-center">Sometimes you just want to send a simple HTML email with a simple design and clear call to action. This is it.</p>
                         <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
                             <tr>
@@ -298,8 +310,8 @@
                             </tr>
                           </tbody>
                         </table>
-                        <p>This is a really simple email template. It's sole purpose is to get the recipient to click the button with no distractions.</p>
-                        <p>Good luck! Hope it works.</p>
+                        <p class="align-center">This is a really simple email template. It's sole purpose is to get the recipient to click the button with no distractions.</p>
+                        <p class="align-center">Good luck! Hope it works.</p>
                       </td>
                     </tr>
                   </table>
@@ -314,8 +326,11 @@
               <table border="0" cellpadding="0" cellspacing="0">
                 <tr>
                   <td class="content-block">
-                    <span class="apple-link">Company Inc, 3 Abbey Road, San Francisco CA 94102</span>
-                    <br> Don't like these emails? <a href="http://i.imgur.com/CScmqnj.gif">Unsubscribe</a>.
+                    <span class="apple-link">© 2016 Morty, Inc. | 43 W. 23rd St. 6th Fl. New York, NY 10010</span>
+                    <br> 
+                    <a href="https://twitter.com/HiMorty"><img src = "https://s14.postimg.org/db40t7pqp/Twitter.png" class="social"></a>
+                    <a href="https://www.facebook.com/HiMorty/"><img src= "https://s9.postimg.org/uvys0b2zj/Facebook.png" class="social"></a>
+                    <a href="https://www.linkedin.com/company/morty-inc."><img src= "https://s16.postimg.org/mg0udaq1h/Linkedin.png" class="social">
                   </td>
                 </tr>
               </table>
